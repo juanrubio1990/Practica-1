@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Practica 01 - Plataforma Web</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+</head>
+<body>
+    <h1>INICIO DE SESION</h1>
+    
+    <p>Introduce tu nombre y tu contraseña para ingresar.</p>
+    
+    <form action="emailList" method="post">        
+        <input type="hidden" name="action" value="add">          
+        <label class="pad_top">Usuario:</label>        
+        <input type="text" name="firstName" required><br>        
+        <label class="pad_top">Contraseña:</label>        
+        <input type="password" name="lastName" required><br>        
+        <input type="submit" value="INICIAR SESION" class="margin_left">       
+    </form>
+</body>
+</html>

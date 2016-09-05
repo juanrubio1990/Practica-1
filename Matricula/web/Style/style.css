@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/09/2016, 01:36:20 PM
+    Author     : alumno
+*/
+.Registro {
+    width: 250px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.Matricula th, .Matricula td {
+    border: 1px solid #000;
+}
